@@ -1,0 +1,80 @@
+body {
+background: linear-gradient(pink, white, rgb(201, 133, 201));
+align-items: center;
+}
+
+header{
+display: flex;
+flex-direction: column;
+padding-top: 30px;
+}
+
+.text-div {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.text{
+font-size: 15px;
+color: blue;
+justify-content: end;
+cursor: pointer;
+word-spacing: 30px;
+}
+
+h1{
+font-size: 70px;
+color: hotpink;
+text-align: center;
+text-shadow: magenta;
+}
+    
+.text-lana{
+font-size: 25px;
+color: darkslategrey;
+text-align: left;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-indent: 30px;
+padding-left: 50px;
+}
+
+
+.lana-img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 730px;
+width: 650px;
+}
+
+.lana-link {
+display: flex;
+font-size: 50px;
+color: indigo;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+.lana-logo{
+height: 80px;
+width: 80;
+padding-left: 10px;
+display: flex;
+flex-direction: row;
+}
+
+footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+
+.rodape-lana{
+font-size: 15px;
+display: flex;
+text-align: center;
+align-items: center;
+font-style: italic;
+}
